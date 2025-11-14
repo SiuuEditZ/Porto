@@ -19,8 +19,8 @@ const poppins=Poppins({
  
 })
 export const metadata: Metadata = {
-  title: "Elie",
-  description: "IKUZWE SHEMA Elie a Fullstack Developer in next js and Typescript",
+  title: "Chrstphrsss",
+  description: "Building, Improving, Evolving.",
   icons:{
     icon:"/favicon-96x96.png",
     apple:"/apple-touch-icon.png"
