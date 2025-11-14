@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Phone, Mail } from "lucide-react";
+import { Github, Phone, Mail } from "lucide-react";
 import Link from "next/link";
 export default function soSocialMedias() {
   return (
