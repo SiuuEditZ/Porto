@@ -1,76 +1,82 @@
 import {
-  NextJsIcon,
-  PrismaIcon,
+  VercelIcon,
   ReactIcon,
-  TypeScriptIcon,
+  GithubIcon,
+  FirebaseIcon,
+  NodeIcon,
+  JavaScriptIcon,
 } from "@/components/icons";
+
 const tools = [
   {
-    name: "Next Js Framework",
-    icon: <NextJsIcon size={26} />,
-    url: "https://nextjs.org/",
+    name: "Vercel Deployment",
+    icon: <VercelIcon size={26} />,
+    url: "https://vercel.com/",
   },
   {
-    name: "React Js Library",
-    icon: <ReactIcon className="animate-spin" />,
+    name: "React JS Library",
+    icon: <ReactIcon />,
     url: "https://react.dev/",
   },
   {
-    name: "Prisma  ORM",
-    icon: <PrismaIcon size={27} />,
-    url: "https://www.prisma.io/",
+    name: "GitHub Repository",
+    icon: <GithubIcon size={26} />,
+    url: "https://github.com/",
   },
-
   {
-    name: "Typescript Language",
-    icon: <TypeScriptIcon size={20} />,
-    url: "https://www.typescriptlang.org/",
+    name: "Firebase Firestore",
+    icon: <FirebaseIcon size={26} />,
+    url: "https://firebase.google.com/",
+  },
+  {
+    name: "Node.js Runtime",
+    icon: <NodeIcon size={26} />,
+    url: "https://nodejs.org/",
+  },
+  {
+    name: "JavaScript Language",
+    icon: <JavaScriptIcon size={26} />,
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
 ];
 
+export default tools;
+
+
 const certificates = [
   {
-    name: "Backend Development",
-    url: "https://www.freecodecamp.org/certification/ikuzweshemaelie/back-end-development-and-apis",
+    name: "Python (Basic)",
+    url: "https://www.hackerrank.com/certificates/94e298a976db",
   },
 
   {
-    name: "Javascript And  Algorithms",
-    url: "https://www.freecodecamp.org/certification/ikuzweshemaelie/javascript-algorithms-and-data-structures-v8",
+    name: "Frontend Developer (React)",
+    url: "https://www.hackerrank.com/certificates/f1a9da380367",
   },{
-    name:"Typescript",
-    url:"https://res.cloudinary.com/total-typescript/image/upload/v1733172700/certificate/9a987e1a-4e58-4d50-9554-72f47ab14367/solving-typescript-errors.png"
+    name:"JavaScript (Intermediate)",
+    url:"https://www.hackerrank.com/certificates/e6604d22f292"
   },
   {
-    name: "Forentend Development",
-    url: "https://www.freecodecamp.org/certification/ikuzweshemaelie/front-end-development-libraries",
-  },
-  {
-    name: "Web Design",
-    url: "https://www.freecodecamp.org/certification/ikuzweshemaelie/responsive-web-design",
+    name: "React (Basic)",
+    url: "https://www.hackerrank.com/certificates/iframe/d6a489649a33",
   },
 ];
 
 const projects = [
   {
-    title: "Ecommerce Application",
-    sourceCode: "https://github.com/shemaikuzwe/Ecommerce",
-    demo: "https://urban-deals-shop.vercel.app/",
+    title: "Osint Tools - SzTools",
+    sourceCode: "https://github.com/SiuuEditZ/SzTools",
+    demo: "https://github.com/SiuuEditZ/SzTools",
   },
   {
-    title: "Code Copilot Chat bot",
-    sourceCode: "https://github.com/Ikuzweshema/code_copilot",
-    demo: "https://code-copilot.vercel.app/",
+    title: "KonzAPI",
+    sourceCode: "https://www.konzapi.my.id/",
+    demo: "https://www.konzapi.my.id/",
   },
   {
-    title: "Authentication App",
-    sourceCode: "https://github.com/Ikuzweshema/next-auth-example",
-    demo: "https://nextauthappexample.vercel.app/",
-  },
-  {
-    title: "Next Auth Exapmle",
-    sourceCode: "https://github.com/username/project2",
-    demo: "https://project2-demo.com",
+    title: "SzDownloader",
+    sourceCode: "https://github.com/SiuuEditZ/SzDownloader",
+    demo: "https://github.com/SiuuEditZ/SzDownloader",
   },
 ];
 
