@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: "Chrstphrsss",
   description: "Building, Improving, Evolving.",
   icons:{
-    icon:"/favicon-96x96.png",
+    icon:"/patrick.png",
     apple:"/apple-touch-icon.png"
   }
 };
